@@ -22,21 +22,7 @@
     <h2 class="mail_title">支払い・配送について</h2>
     <p class="mail_description">フォームに名前、住所、メールアドレスを記入してください。<br>商品は全てメールでの取引となります。ご了承ください。</p>
 
-    <form id="mailform" method="post" action="mailform/send.cgi" onsubmit="return sendmail(this);">
-      <p class="mail_item">名前</p>
-      <input type="text" placeholder="武蔵美 太郎">
-
-      <p class="mail_item">住所<br>※作品が届く場所を記入してください</p>
-      <input type="text" placeholder="〒○○○-○○○○ 東京都○○区○○-○○">
-
-      <p class="mail_item">メールアドレス<br>※取引に使用するアドレスを記入してください</p>
-      <input type="text" placeholder="○○○○@○○.○○">
-
-      <p class="mail_item">商品情報</p>
-      <textarea>作品名<br>¥2,000<br>名前</textarea>
-
-      <a href="mailto:address?subject=&amp;body="><input type="submit" class="buttun" value="送信">
-		</form>
+    <a href="mailto:info@rkxx14@gmail.com?subject=HUMAN&amp;body=作品名%0d%0a値段%0d%0a出品者" class="button">送信</a>
 
 		<link rel="stylesheet" href="mailform/mailform.css" type="text/css">
 		<script type="text/javascript" src="mailform/mailform.js" charset="utf-8"></script>
