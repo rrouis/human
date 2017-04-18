@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HUMAN</title>
+  <meta name="discription" content="HUMAN Online Shop">
+  <meta name="keyword" content="HUMAN, 武蔵美">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+
+<body>
+
+  <section class="top">
+    <div class="top_container">
+      <h1>
+        <img src="" alt="HUMAN" height="100">
+      </h1>
+  </section><!-- top -->
+
+  <section class="main">
+    <div class="main_container">
+
+      <div class="category">
+        <h2 class="category_name">ZINE</h2>
+
+          <div class="card">
+            <img src="" alt="">
+            <p class="name">NAME</p>
+          </div>
+
+      </div>
+    </div>
+  </section><!-- main -->
+
+  <section class="footer">
+    <nav>
+      <ul class="main_nav">
+        <li><a href="#about.html">ABOUT</a></li>
+        <li><a href="#contact.html">CONTACT</a></li>
+        <li><a href="#pay.html">支払い・配送について</a></li>
+      </ul>
+        <p class="copyright">
+          <span>All Rights Reserved</span>
+          伊藤 誠一朗　星加 陸
+        </p>
+      </ul>
+    </nav>
+  </section><!-- fotter -->
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.js" charset="utf-8"></script>
+  <script type="text/javascript">
+
+    jQuery(function($){
+
+      // スクリーンの高さを取得
+      var wh = $(window).height();
+      console.log(wh);
+
+      $('.top').css("height",wh);
+
+    });
+  </script>
+</body>
+</html>
