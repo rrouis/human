@@ -38,7 +38,10 @@ h1 {
 
 .header {
   height: 60px;
+  width: 100%;
   background-color: #000;
+  position: fixed;
+  top: 0;
 }
 .header h1 {
   color: #fff;
@@ -46,6 +49,20 @@ h1 {
   font-size: 16px;
   text-align: center;
   padding-top: 22px;
+}
+.header_ja {
+  height: 60px;
+  width: 100%;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+}
+.header_ja h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 18px;
 }
 .btn {
   display: block;
@@ -148,6 +165,15 @@ h1 {
 	margin: 0 auto;
 	position: relative;
   top: 45%;
+}
+.top_container p {
+  margin: 24px 24px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+.top_container .nextbtn {
+  margin: 0 auto;
 }
 .top_logo {
   text-align: center;

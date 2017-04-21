@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お支払い・配送について</title>
+  <meta name="discription" content="HUMAN Online Shop">
+  <meta name="keyword" content="HUMAN, 武蔵美">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+
+<body>
+  <section class="header_ja">
+    <a href="index.html#back" class="backbtn">
+      <span></span>
+    </a>
+    <h1>お支払い・配送について</h1>
+  </section><!-- header -->
+
+  <section class="top">
+    <div class="top_container">
+      <p>商品は全てメールでの取引となります。<br><br>送信ボタンを押してフォーマットに名前、住所を記入し、記載された情報と商品が合っているか確認してから送信してください。<br><br>メールでの取引が完了後、出品者が責任を持ってお届けします。</p>
+    </div>
+  </section><!-- top -->
+
+  <section class="footer">
+      <p class="copyright">
+        All Rights Reserved<br>
+        伊藤 誠一朗　星加 陸
+      </p>
+  </section><!-- fotter -->
+
+  <script src="https://code.jquery.com/jquery-3.1.1.js" charset="utf-8"></script>
+  <script type="text/javascript">
+
+    jQuery(function($){
+
+      // スクリーンの高さを取得
+      var wh = $(window).height();
+      console.log(wh);
+
+      $('.top').css("height",wh);
+
+    });
+  </script>
+
+</body>
+</html>
