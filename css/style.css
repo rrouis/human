@@ -19,44 +19,32 @@ h1 {
 
 .header {
   height: 60px;
+  width: 100%;
   background-color: #000;
+  position: fixed;
+  top: 0;
 }
 .header h1 {
   color: #fff;
   text-align: center;
   font-size: 16px;
   text-align: center;
-  padding-top: 22px;
+  padding-top: 21px;
 }
 
-.menu_header {
+.header_ja {
   height: 60px;
   width: 100%;
   background-color: #000;
   position: fixed;
   top: 0;
 }
-.menu_header h1 {
+.header_ja h1 {
   color: #fff;
   text-align: center;
   font-size: 16px;
   text-align: center;
-  padding-top: 22px;
-}
-
-.menu_header_ja {
-  height: 60px;
-  width: 100%;
-  background-color: #000;
-  position: fixed;
-  top: 0;
-}
-.menu_header_ja h1 {
-  color: #fff;
-  text-align: center;
-  font-size: 16px;
-  text-align: center;
-  padding-top: 18px;
+  padding-top: 17px;
 }
 .btn {
   display: block;
@@ -236,6 +224,9 @@ h1 {
 .exhibitor {
   text-align: center;
 }
+.exhibitor_name {
+  padding-top: 60px;
+}
 .exhibitor_introduction {
   font-size: 12px;
   margin-bottom: 24px;
@@ -250,6 +241,7 @@ h1 {
   justify-content: space-between;
 }
 .work_img {
+  padding-top: 60px;
   width: 50%;
 }
 .work_img img {
