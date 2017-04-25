@@ -352,6 +352,7 @@ h1 {
     height: auto;
   }
   .introduction {
+    padding-top: 10px;
     margin: 0 24px;
     width: 90%;
   }
@@ -362,6 +363,7 @@ h1 {
   .work_description {
     margin-bottom: 60px;
     font-size: 14px;
+    height: auto;
   }
   .mail_title {
     font-size: 14px;
