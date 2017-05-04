@@ -320,6 +320,13 @@ h1 {
   text-align: center;
   width: 100%;
 }
+.footer_bottom {
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
 .footer_bottom_only {
   background-color: #000;
   text-align: center;
@@ -345,6 +352,12 @@ h1 {
   padding: 20px 0;
   font-size: 8px;
   line-height: 3em;
+}
+.footer_bottom .copyright {
+  padding: 20px 0;
+  font-size: 8px;
+  line-height: 3em;
+  color: #fff;
 }
 .footer_bottom_only .copyright {
   padding: 20px 0;
