@@ -435,6 +435,11 @@ h1 {
       text-align: center;
       line-height: 1;
   }
+  .footer_bottom_only {
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+  }
 
   /* work */
 }
