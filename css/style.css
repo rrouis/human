@@ -11,6 +11,9 @@ a, p {
   text-decoration: none;
   font-size: 14px;
 }
+a {
+  letter-spacing: .1em;
+}
 a:hover {
 }
 h1 {
@@ -18,14 +21,14 @@ h1 {
 }
 
 .top {
-	background: url(../img/top.png) no-repeat;
+	background: url(../img/top.jpg) no-repeat;
 	background-position: center center;
 	background-size: cover;
 	}
 .top_container {
 	margin: 0 auto;
 	position: relative;
-  top: 45%;
+  top: 33%;
 }
 .top_container p {
   margin: 24px 24px;
@@ -92,6 +95,39 @@ h1 {
 	}
 }
 /* top */
+
+.menu_top {
+	background: url(../img/top.jpg) no-repeat fixed;
+	background-position: center center;
+	background-size: cover;
+  height: 100vh;
+}
+.menu_top_container p {
+  padding-top: 260px;
+  margin: 24px 24px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  line-height: 2em;
+}
+.menu_top_container a {
+  margin: 0 auto;
+}
+/* contact & pay */
+
+.about_top {
+	background: url(../img/top.jpg) no-repeat fixed;
+	background-position: center center;
+	background-size: cover;
+}
+.menu_top_only_container p {
+  padding: 120px 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  line-height: 2em;
+}
+/* about */
 
 .main {
   margin: 60px 48px;
@@ -311,9 +347,13 @@ h1 {
 
 
 @media screen and (max-width:480px) {
+  .top_container {
+  	margin: 0 auto;
+  	position: relative;
+    top: 35%;
+  }
   .top_container img{
-  width: 50%;
-  top: 48%;
+  width: 100%;
   }
   /* top */
   .main {
