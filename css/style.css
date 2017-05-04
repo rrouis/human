@@ -2,8 +2,7 @@ body {
   margin: 0;
   color: #000;
   background-color: #fff;
-  font-family: "Helvetica","Hiragino Kaku Gothic ProN","Meiryo", sans-serif;
-  letter-spacing: 0.1em;
+  font-family: "Helvetica Neue","Hiragino Kaku Gothic ProN","Meiryo", sans-serif;
 }
 a, p {
   margin: 0;
@@ -12,7 +11,6 @@ a, p {
   font-size: 14px;
 }
 a {
-  letter-spacing: .1em;
 }
 a:hover {
 }
@@ -244,7 +242,14 @@ h1 {
 }
 .exhibitor_introduction {
   font-size: 12px;
+  color: #000;
   margin-bottom: 24px;
+}
+.exhibitor_introduction a{
+  text-decoration: underline;
+}
+.exhibitor_introduction span {
+  font-weight: bold;
 }
 /* exhibitor */
 
@@ -266,6 +271,9 @@ h1 {
 .introduction {
   padding-top: 60px;
   width: 45%;
+}
+.work_title {
+  height: 36px;
 }
 .work_price {
   font-weight: bold;
@@ -330,7 +338,8 @@ h1 {
 .footer_menu li{
   list-style-type: none;
   padding: 20px 0;
-  border-bottom: .5px solid #fff;
+  border-bottom: .01em solid #fff;
+  font-weight: bold;
 }
 .footer .copyright {
   padding: 20px 0;
