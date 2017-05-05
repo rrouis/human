@@ -141,7 +141,7 @@ h1 {
   flex-flow: row wrap;
 }
 .card {
-  margin-right: 16px;
+  margin: 0 8px;
 }
 .main .card img {
   width: 320px;
