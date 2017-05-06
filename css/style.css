@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
-
 body {
   margin: 0;
   color: #1b120c;
   background-color: #fff;
-  font-family: 'Open Sans', "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium",sans-serif;
+  font-family: 'Helveitica Neue', "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", sans-serif;
 }
 a, p {
   margin: 0;
@@ -135,7 +132,7 @@ h1 {
   letter-spacing: .1em;
 }
 .menu_top_only_container span {
-  font-weight: 500;
+  font-weight: bold;
   letter-spacing: .1em;
 }
 /* about */
@@ -146,6 +143,7 @@ h1 {
 .category_name {
   font-size: 16px;
   margin-left: 8px;
+  font-weight: 500;
 }
 .card_container {
   display: flex;
@@ -177,6 +175,7 @@ h1 {
   color: #fff;
   text-align: center;
   font-size: 16px;
+  font-weight: 500;
   text-align: center;
   padding-top: 21px;
   letter-spacing: .1em;
