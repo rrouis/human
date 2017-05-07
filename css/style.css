@@ -2,7 +2,7 @@ body {
   margin: 0;
   color: #1b120c;
   background-color: #fff;
-  font-family: 'Helveitica Neue', "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", sans-serif;
+  font-family: 'Helvetica', 'YuGothic' ,'YuGothicM', sans-serif;
 }
 a, p {
   margin: 0;
@@ -300,7 +300,7 @@ h1 {
 }
 .work_description {
   margin-bottom: 40px;
-  height: 162px;
+  height: 168px;
 }
 .mail_description {
   margin-bottom: 40px;
