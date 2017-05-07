@@ -11,14 +11,23 @@
   </head>
 
 <body>
-
+  <div id="loader-bg">
+  <div id="loader">
+    <div class="top_container">
+      <h1 class="top_logo">
+        <img src="img/humanlogo.png" alt="HUMAN">
+      </h1>
+    </div>
+  </div>
+</div>
+<div id="wrap">
   <section class="top">
     <div class="top_container">
       <h1 class="top_logo">
         <img src="img/humanlogo.png" alt="HUMAN">
       </h1>
     </div>
-    <a href="#" class="scrollbtn"><span class="scrollbtn"></span></a>
+    <a href="#back_exhibitor" class="scrollbtn"><span class="scrollbtn"></span></a>
   </section><!-- top -->
 
   <section class="main">
@@ -50,7 +59,7 @@
 
         <a href="exhibitor04.html">
           <div class="card">
-            <img src="img/sakuhin.png" alt="Daisuke Watanuki">
+            <img src="img/daisuke_watanuki/emolove01.jpg" alt="Daisuke Watanuki">
             <p class="name">Daisuke Watanuki</p>
           </div>
         </a>
@@ -99,7 +108,7 @@
 
         <a href="exhibitor11.html">
           <div class="card">
-            <img src="img/sakuhin.png" alt="Ryuji Ohkura">
+            <img src="img/ryuji_ohkura.jpg" alt="Ryuji Ohkura">
             <p class="name">Ryuji Ohkura</p>
           </div>
         </a>
@@ -113,7 +122,7 @@
 
         <a href="exhibitor13.html">
           <div class="card">
-            <img src="img/sakuhin.png" alt="Yu Peng">
+            <img src="img/yu_peng.jpg" alt="Yu Peng">
             <p class="name">Yu Peng</p>
           </div>
         </a>
@@ -141,10 +150,30 @@
       </p>
   </section><!-- fotter -->
 
+</div>
 
-  <script src="https://code.jquery.com/jquery-3.1.1.js" charset="utf-8"></script>
-  <script src="js/human.js" type="text/javascript"></script>
   <script src="js/flickity.pkgd.min.js"></script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>
+
+  $(function() {
+    var h = $(window).height();
+
+    $('#wrap').css('display','none');
+    $('#loader-bg ,#loader').height(h).css('display','block');
+
+  });
+
+  $(window).load(function () { //全ての読み込みが完了したら実行
+
+    $('#loader-bg').delay(900).fadeOut(800);
+    $('#loader').delay(900).fadeOut(800);
+    $('#wrap').css('display', 'block');
+
+  });
+
+  </script>
 
 </body>
 </html>
