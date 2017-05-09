@@ -2,7 +2,8 @@ body {
   margin: 0;
   color: #1b120c;
   background-color: #fff;
-  font-family: 'Helvetica', 'YuGothic' ,'YuGothicM', sans-serif;
+  /* font-family: 'Helvetica', 'YuGothic' ,'YuGothicM', sans-serif; */
+  font-family: serif;
 }
 a, p {
   margin: 0;
@@ -19,13 +20,32 @@ a:hover {
 h1 {
   margin: 0;
 }
+.target {
+  opacity: 0;
+}
+.fadeIn{
+    animation-duration: 1s;
+    animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+/* css animation ------------------------- */
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 .top {
   height: 100vh;
   background-color: #000;
 	background: url(../img/top.jpg) no-repeat;
 	background-position: center center;
 	background-size: cover;
-	}
+}
 .top_container {
 	margin: 0 auto;
 	position: relative;
@@ -40,8 +60,12 @@ h1 {
 .top_container .nextbtn {
   margin: 0 auto;
 }
-.top_logo {
-  text-align: center;
+.pc {
+  display: block;
+  margin: 0 auto;
+}
+.mobail {
+  display: none;
 }
 .scrollbtn a {
   position: absolute;
@@ -96,7 +120,19 @@ h1 {
 	}
 }
 /* top */
-
+.lead {
+  text-align: center;
+  padding: 200px 16px;
+  background-color: #B6AB91;
+}
+.lead_member {
+  color: #1b120c;
+  font-family: serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 2em;
+  font-size: 20px;
+}
 .menu_top {
 	background: url(../img/top.jpg) no-repeat fixed;
 	background-position: center center;
@@ -161,6 +197,9 @@ h1 {
   margin-top: 8px;
   margin-bottom: 16px;
   font-weight: 500;
+}
+.long {
+  letter-spacing: -.1px;
 }
 /* card */
 
@@ -394,12 +433,22 @@ h1 {
   .top_container {
   	margin: 0 auto;
   	position: relative;
-    top: 37%;
+    top: 17%;
+  }
+  .pc {
+    display: none;
+  }
+  .mobail {
+    display: block;
+    margin: 0 auto;
   }
   .top_container img{
   width: 100%;
   }
   /* top */
+  .lead_member {
+    font-size: 12px;
+  }/* lead */
   .main {
     margin: 30px 24px;
   }

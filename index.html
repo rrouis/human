@@ -14,22 +14,31 @@
 
   <section class="top">
     <div class="top_container">
-      <h1 class="top_logo">
-        <img src="img/humanlogo.png" alt="HUMAN">
+      <h1 class="top_logo target" id="fadeLogo">
+        <img class="pc" src="img/humanlogo.png" alt="HUMAN">
+        <img class="mobail" src="img/humanlogomobail.png" alt="HUMAN">
       </h1>
     </div>
     <a href="#back_exhibitor" class="scrollbtn"><span class="scrollbtn"></span></a>
   </section><!-- top -->
 
-  <section class="main">
+  <section class="lead">
+    <p class="lead_member target" id="fadeLead">
+      <span class="line">Seiichiro Ito　Riku Hoshika　Miki Yoshioka</span><br>
+      <span class="line">Daisuke Watanuki　Toshifumi Matsumiya　Shuya Aoki</span><br>
+      <span class="line">Rinna Shimizu　Minako Wada　Yumi Tanaka　Minami Sakurai</span><br>
+      <span class="line">Ryuji Okura　Kohta Hori　Peng Yu</span>
+    </p>
+  </section><!-- lead -->
+
+  <section class="main target" id="fadeMain">
     <div class="category">
       <a name="back_exhibitor"></a>
-      <h2 class="category_name">EXHIBITOR</h2>
       <div class="card_container">
 
         <a href="exhibitor01.html">
           <div class="card">
-            <img src="img/seiichiro_ito/wallet01.jpg" alt="Seiichiro Ito">
+            <img src="img/seiichiro_ito/bag02.jpg" alt="Seiichiro Ito">
             <p class="name">Seiichiro Ito</p>
           </div>
         </a>
@@ -106,7 +115,7 @@
 
         <a href="exhibitor12.html">
           <div class="card">
-            <img src="img/kohta_hori/kohtahori01.jpg" alt="Kohta Hori">
+            <img src="img/kohta_hori/newyork02.jpg" alt="Kohta Hori">
             <p class="name">Kohta Hori</p>
           </div>
         </a>
@@ -121,7 +130,7 @@
         <a href="exhibitor14.html">
           <div class="card">
             <img src="img/riku_hoshika_shuya_aoki/shell01.jpg" alt="Riku HoshikaSyuya Aoki">
-            <p class="name">Riku Hoshika &amp; Syuya Aoki</p>
+            <p class="name long">Riku Hoshika &amp; Syuya Aoki</p>
           </div>
         </a>
 
@@ -141,6 +150,8 @@
       </p>
   </section><!-- fotter -->
 
+  <script src="https://code.jquery.com/jquery-3.1.1.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/human.js"></script>
   <script src="js/flickity.pkgd.min.js"></script>
 
 
